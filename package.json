@@ -1,15 +1,17 @@
 {
-  "name": "express-_message",
+  "name": "express_message",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/masatake-azumi/express_messagae.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/masatake-azumi/express_messagae#readme",
   "dependencies": {
+    "config": "^3.3.3",
     "express": "^4.17.1"
   }
 }
